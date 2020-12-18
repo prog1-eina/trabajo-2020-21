@@ -2,7 +2,7 @@
 
 ## Curso 2020-21
 
-### Escuela de Ingeniería y Arquitectura. Universidad de Zaragoza 
+### Escuela de Ingeniería y Arquitectura. Universidad de Zaragoza
 
 Datos y código fuente de partida para el trabajo obligatorio de Programación 1.
 
