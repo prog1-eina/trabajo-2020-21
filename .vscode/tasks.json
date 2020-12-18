@@ -1,0 +1,35 @@
+{
+    "tasks": [
+        {
+            "label": "Compilar «gestor»",
+            "type": "shell",
+            "command": "make",
+            "windows": {
+                "command": "mingw32-make.exe"
+            },
+            "args": [
+                "all"
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Ejecutar «gestor»",
+            "type": "shell",
+            "command": "bin/gestor",
+            "windows": {
+                "command": "chcp 65001 ; bin\\gestor.exe"
+            },
+            "dependsOn": "Compilar «gestor»",
+            "problemMatcher": [
+                "$gcc"
+            ]
+        }
+    ],
+    "version": "2.0.0"
+}
