@@ -33,6 +33,5 @@
 
 # CodeLite
 .codelite/
-*/*.txt
 compile_commands.json
 
