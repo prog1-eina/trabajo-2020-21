@@ -52,7 +52,7 @@ void listarTemperaturas(const GrupoTemps& grupo);
  *              Temperatura media mensual máxima:  23.4 °C
  *              Temperatura media mensual mínima:   5.6 °C
  *              Temperatura media anual:           13.3 °C
- *              Desviación típica:                  6.8 °C
+ *              Desviación típica:                  6.5 °C
  */
 void estadisticos(const GrupoTemps& grupo);
 
