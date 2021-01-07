@@ -67,7 +67,7 @@ void estadisticos(const GrupoTemps& grupo);
  *       reflejada por los datos de temperatura de las distintas componentes del
  *       vector «grupos», tal y como se muestra a continuación:
  * 
- *               Evolución de temperaturas medias
+ *               Evolución de temperaturas
  *               HUESCA
  *               ------------------------------------------
  *               2015   15.5 °C
